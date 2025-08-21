@@ -96,4 +96,4 @@ with col2:
             st.exception(e)
 
 st.divider()
-with st.expander("ℹ️ Notes"):
+
