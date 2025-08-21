@@ -49,7 +49,7 @@ col1, col2 = st.columns([1,1])
 
 with col1:
     st.subheader("🧪 Single Prediction")
-    st.caption("All features in this dataset are typically encoded as integers (−1, 0, 1).")
+    st.caption("All features in this dataset are typically encoded as integers (−1, 0, 1). -1 = legitimate 0 = Suspicious/Unsure 1 = phishy")
     inputs = {}
     for feat in FEATURES:
         inputs[feat] = st.select_slider(
