@@ -97,8 +97,3 @@ with col2:
 
 st.divider()
 with st.expander("ℹ️ Notes"):
-    st.markdown("""
-- The model expects the same **encoding** as used in training (typically −1/0/1).
-- If you trained with **class weights** or specific preprocessing, keep it consistent here.
-- To change the decision threshold (default 0.50), modify the line where `label01` is computed.
-""")
